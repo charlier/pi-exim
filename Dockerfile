@@ -6,4 +6,4 @@ RUN sed -i -e 's/v3.5/v3.6/g' /etc/apk/repositories && \
   rm -rf /var/cache/apk/*
 
 
-CMD ["/usr/bin/exim"]
+CMD ["/usr/sbin/exim"]
